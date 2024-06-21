@@ -1,9 +1,8 @@
 package com.andrascsanyi.beanvalidatorextensions.longvaluemustbeequalorgreaterto;
 
-import com.andrascsanyi.encyclopediagalactica.EncyclopediaGalacticaApplicationBaseTest;
+import com.andrascsanyi.beanvalidatorextensions.BeanValidatorExtensionsApplicationTests;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validator;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -15,10 +14,8 @@ import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Tag("common")
-@Tag("validator")
 @DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_CLASS)
-public class LongValueMustBeEqualOrGreaterToTests extends EncyclopediaGalacticaApplicationBaseTest {
+public class LongValueMustBeEqualOrGreaterToTests extends BeanValidatorExtensionsApplicationTests {
     
     @Autowired
     private Validator validator;

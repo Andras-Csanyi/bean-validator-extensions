@@ -1,6 +1,6 @@
 package com.andrascsanyi.beanvalidatorextensions.longasstringmustbegreaterorequaltoone;
 
-import com.andrascsanyi.encyclopediagalactica.EncyclopediaGalacticaApplicationBaseTest;
+import com.andrascsanyi.beanvalidatorextensions.BeanValidatorExtensionsApplicationTests;
 import jakarta.validation.Validator;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -13,10 +13,8 @@ import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Tag("validator")
-@Tag("common")
 @DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_CLASS)
-public class LongAsStringMustBeGreaterOrEqualToOneTests extends EncyclopediaGalacticaApplicationBaseTest {
+public class LongAsStringMustBeGreaterOrEqualToOneTests extends BeanValidatorExtensionsApplicationTests {
     
     @Autowired
     private Validator validator;

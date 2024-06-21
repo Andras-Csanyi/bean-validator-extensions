@@ -1,6 +1,6 @@
 package com.andrascsanyi.beanvalidatorextensions.longasstringmustbezero;
 
-import com.andrascsanyi.encyclopediagalactica.common.validation.LongAsStringMustBeZero;
+import com.andrascsanyi.beanvalidatorextensions.LongAsStringMustBeZero;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

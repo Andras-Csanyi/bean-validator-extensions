@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.andrascsanyi</groupId>
     <artifactId>bean-validator-extensions</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.0</version>
     <name>bean-validator-extensions</name>
     <description>bean-validator-extensions</description>
     <url/>
