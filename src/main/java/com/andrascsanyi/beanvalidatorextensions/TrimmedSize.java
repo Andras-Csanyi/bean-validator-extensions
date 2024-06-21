@@ -10,7 +10,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- *
+ * Add documentation here
  */
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
