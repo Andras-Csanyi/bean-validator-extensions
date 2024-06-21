@@ -1,6 +1,6 @@
 package com.andrascsanyi.beanvalidatorextensions.longvaluemustbe;
 
-import com.andrascsanyi.encyclopediagalactica.common.validation.LongValueMustBe;
+import com.andrascsanyi.beanvalidatorextensions.LongValueMustBe;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

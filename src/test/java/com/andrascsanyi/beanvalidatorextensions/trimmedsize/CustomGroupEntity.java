@@ -1,6 +1,6 @@
 package com.andrascsanyi.beanvalidatorextensions.trimmedsize;
 
-import com.andrascsanyi.encyclopediagalactica.common.validation.TrimmedSize;
+import com.andrascsanyi.beanvalidatorextensions.TrimmedSize;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

@@ -1,6 +1,6 @@
 package com.andrascsanyi.beanvalidatorextensions.longvaluemustbeequalorgreaterto;
 
-import com.andrascsanyi.encyclopediagalactica.common.validation.LongValueMustBeGreaterOrEqualTo;
+import com.andrascsanyi.beanvalidatorextensions.LongValueMustBeGreaterOrEqualTo;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

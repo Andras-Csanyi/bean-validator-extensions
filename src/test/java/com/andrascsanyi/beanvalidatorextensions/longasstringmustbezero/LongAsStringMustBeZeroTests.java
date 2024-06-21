@@ -1,8 +1,7 @@
 package com.andrascsanyi.beanvalidatorextensions.longasstringmustbezero;
 
-import com.andrascsanyi.encyclopediagalactica.EncyclopediaGalacticaApplicationBaseTest;
+import com.andrascsanyi.beanvalidatorextensions.BeanValidatorExtensionsApplicationTests;
 import jakarta.validation.Validator;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -13,10 +12,8 @@ import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Tag("validator")
-@Tag("common")
 @DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_CLASS)
-public class LongAsStringMustBeZeroTests extends EncyclopediaGalacticaApplicationBaseTest {
+public class LongAsStringMustBeZeroTests extends BeanValidatorExtensionsApplicationTests {
     
     public static Stream<Arguments> testDataDefaultGroup() {
         return Stream.of(
