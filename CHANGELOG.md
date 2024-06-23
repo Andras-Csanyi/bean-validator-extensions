@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.1.1...0.1.2) (2024-06-23)
+
+
+### Bug Fixes
+
+* doc ([#6](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/6)) ([a2a91c9](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/a2a91c9b3a6d89fb703d5b29b9aeb5bfcb9fb35d))
+
 ## [0.1.1](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.1.0...0.1.1) (2024-06-23)
 
 
