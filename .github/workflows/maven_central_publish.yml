@@ -18,6 +18,7 @@ jobs:
           java-version: '21'
           cache: 'maven'
           cache-dependency-path: 'pom.xml'
+          server-id: maven
           server-username: SONATYPE_CENTRAL_USERNAME
           server-password: SONATYPE_CENTRAL_TOKEN
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
