@@ -125,6 +125,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <publishingServerId>maven</publishingServerId>
+                    <autoPublish>true</autoPublish>
                 </configuration>
             </plugin>
             <plugin>
