@@ -20,7 +20,7 @@ jobs:
           cache-dependency-path: 'pom.xml'
           server-username: SONATYPE_CENTRAL_USERNAME
           server-password: SONATYPE_CENTRAL_TOKEN
-          gpg-private-key: GPG_PRIVATE_KEY
+          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           gpg-passphrase: GPG_PASSPHRASE
 
       - name: Publish to Maven Central
@@ -28,5 +28,4 @@ jobs:
         env:
           SONATYPE_CENTRAL_USERNAME: ${{ secrets.SONATYPE_CENTRAL_USERNAME }}
           SONATYPE_CENTRAL_TOKEN: ${{ secrets.SONATYPE_CENTRAL_TOKEN }}
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
