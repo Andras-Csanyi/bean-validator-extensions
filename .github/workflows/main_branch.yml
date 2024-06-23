@@ -41,3 +41,9 @@ jobs:
     uses: ./.github/workflows/versioning.yml
     secrets: inherit
 
+  publish:
+    name: Publish to Maven Central
+    needs: semantic_release
+    uses: ./.github/workflows/maven_central_publish.yml
+    secrets: inherit
+
