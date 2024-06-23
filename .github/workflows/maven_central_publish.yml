@@ -19,7 +19,7 @@ jobs:
           cache: 'maven'
           cache-dependency-path: 'pom.xml'
           server-username: SONATYPE_CENTRAL_USERNAME
-          server-token: SONATYPE_CENTRAL_TOKEN
+          server-password: SONATYPE_CENTRAL_TOKEN
           gpg-private-key: GPG_PRIVATE_KEY
           gpg-passphrase: GPG_PASSPHRASE
 
