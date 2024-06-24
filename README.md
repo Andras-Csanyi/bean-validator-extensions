@@ -1,5 +1,5 @@
 # Bean Validator Extensions
 
-Latest version: 0.1.6
+Latest version: 0.2.0
 
 Additional validators for Hibernate Bean Validator
