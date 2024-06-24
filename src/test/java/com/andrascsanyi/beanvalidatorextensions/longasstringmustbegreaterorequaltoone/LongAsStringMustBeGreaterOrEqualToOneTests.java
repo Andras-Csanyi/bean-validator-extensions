@@ -1,23 +1,15 @@
 package com.andrascsanyi.beanvalidatorextensions.longasstringmustbegreaterorequaltoone;
 
 import com.andrascsanyi.beanvalidatorextensions.BeanValidatorExtensionsApplicationTests;
-import jakarta.validation.Validator;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.annotation.DirtiesContext;
 
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_CLASS)
 public class LongAsStringMustBeGreaterOrEqualToOneTests extends BeanValidatorExtensionsApplicationTests {
-    
-    @Autowired
-    private Validator validator;
     
     public static Stream<Arguments> testDefaultGroupData() {
         return Stream.of(
