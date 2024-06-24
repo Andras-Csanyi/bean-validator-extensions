@@ -1,8 +1,12 @@
 package com.andrascsanyi.beanvalidatorextensions;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import jakarta.validation.Validation;
+import jakarta.validation.Validator;
 
-@SpringBootTest
 public class BeanValidatorExtensionsApplicationTests {
+    protected Validator validator;
+    
+    public BeanValidatorExtensionsApplicationTests() {
+        this.validator = Validation.buildDefaultValidatorFactory().getValidator();
+    }
 }
