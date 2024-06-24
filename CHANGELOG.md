@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.1.6...0.2.0) (2024-06-24)
+
+
+### Features
+
+* spring has been removed ([#11](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/11)) ([d3ad809](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/d3ad809d01d1517f5a924f78f149d6d779f279f3))
+
 ## [0.1.6](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.1.5...0.1.6) (2024-06-23)
 
 
