@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.2...0.2.3) (2024-06-25)
+
+
+### Bug Fixes
+
+* nicer pom and namespace fixes ([#14](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/14)) ([e0c5ce3](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/e0c5ce3fdacb4e82810887101815fc8384b42d26))
+
 ## [0.2.2](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.1...0.2.2) (2024-06-25)
 
 
