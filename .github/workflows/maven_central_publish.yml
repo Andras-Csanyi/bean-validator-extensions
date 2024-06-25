@@ -10,6 +10,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          clean: true
+          fetch-depth: 0
 
       - name: Setting up for publish
         uses: actions/setup-java@v4
