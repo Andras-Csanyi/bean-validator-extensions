@@ -13,6 +13,7 @@ jobs:
         with:
           clean: true
           fetch-depth: 0
+          ref: ${{ github.ref }}
 
       - name: Setting up for publish
         uses: actions/setup-java@v4
