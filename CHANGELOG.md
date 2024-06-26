@@ -1,3 +1,10 @@
+## [0.2.5](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.4...0.2.5) (2024-06-26)
+
+
+### Bug Fixes
+
+* MR title created by Dependabot fix ([#20](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/20)) ([a009d6f](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/a009d6f2b7caec250c7f9b5b6f9b889eb90fc180))
+
 ## [0.2.4](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.3...0.2.4) (2024-06-26)
 
 
