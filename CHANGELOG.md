@@ -1,3 +1,10 @@
+## [0.2.8](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.7...0.2.8) (2024-06-26)
+
+
+### Bug Fixes
+
+* **upgrades:** bump org.apache.maven.plugins:maven-javadoc-plugin from 3.4.0 to 3.7.0 ([#19](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/19)) ([7863624](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/786362414f355811523f3e1c62aada02fbf3c342))
+
 ## [0.2.7](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.6...0.2.7) (2024-06-26)
 
 
