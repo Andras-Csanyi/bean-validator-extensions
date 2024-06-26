@@ -1,3 +1,10 @@
+## [0.2.6](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.5...0.2.6) (2024-06-26)
+
+
+### Bug Fixes
+
+* **upgrades:** bump org.apache.maven.plugins:maven-gpg-plugin from 3.0.1 to 3.2.4 ([#16](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/16)) ([a64d139](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/a64d139d9d68be4ad78f661f2b292f34960a86e7))
+
 ## [0.2.5](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.4...0.2.5) (2024-06-26)
 
 
