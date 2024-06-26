@@ -1,3 +1,10 @@
+## [0.2.7](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.6...0.2.7) (2024-06-26)
+
+
+### Bug Fixes
+
+* **upgrades:** bump org.apache.maven.plugins:maven-source-plugin from 3.0.1 to 3.3.1 ([#17](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/17)) ([e81ba1b](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/e81ba1b57a700064d484ed3928c0b07c9709148a))
+
 ## [0.2.6](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.5...0.2.6) (2024-06-26)
 
 
