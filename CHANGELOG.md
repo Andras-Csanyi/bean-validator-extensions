@@ -1,3 +1,10 @@
+## [0.2.4](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.3...0.2.4) (2024-06-26)
+
+
+### Bug Fixes
+
+* add dependabot ([#15](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/15)) ([e209353](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/e2093531687b9aad4226db554398b670490288a9))
+
 ## [0.2.3](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.2...0.2.3) (2024-06-25)
 
 
