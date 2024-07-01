@@ -10,7 +10,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- *
+ * This constraint describes the case when the provided {@link Long} value must be greater or equal to the provided
+ * parameters.
  */
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
@@ -18,12 +19,11 @@ import java.lang.annotation.Target;
 @Documented
 public @interface LongValueMustBeGreaterOrEqualTo {
     long mustBeGreaterOrEqualTo() default Long.MIN_VALUE;
-    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation" +
-        ".LongValueMustBeGreaterOrEqualT" +
-        ".message=The provided value must be greater than or equal to the defined one}";
-    
+
+    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation.LongValueMustBeGreaterOrEqualT}";
+
     Class<?>[] groups() default {};
-    
+
     Class<? extends Payload>[] payload() default {};
-    
+
 }
