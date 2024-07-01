@@ -10,24 +10,24 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Validates if the provided input {@link String} is equal to 0 when it is parsed as Long.
+ * This constraint describes the case when the provided input {@link String} must be equal to 0 when it is parsed as
+ * {@link Long}.
  *
- * <p>This validation annotation is used to check values coming via GraphQL where the ID is {@link
- * String}.
+ * <p>
+ * The validation judges the negative value, the null, empty or blank string values to be valid.
  *
- * <p>The validation judges the negative value, the null, empty or blank string values to be valid.
+ * <p>
+ * <b>Use case:</b> This validation annotation is used to check values coming via GraphQL where the ID is
+ * {@link String}.
  */
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @Constraint(validatedBy = LongAsStringMustBeZeroValidator.class)
 @Documented
 public @interface LongAsStringMustBeZero {
-    String message() default
-        "{com.andrascsanyi.encyclopediagalactica.common.validation" +
-            ".LongAsStringMustBeZero" +
-            ".message=The provided Long provided as string must be zero!}";
-    
+    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation.LongAsStringMustBeZero}";
+
     Class<?>[] groups() default {};
-    
+
     Class<? extends Payload>[] payload() default {};
 }

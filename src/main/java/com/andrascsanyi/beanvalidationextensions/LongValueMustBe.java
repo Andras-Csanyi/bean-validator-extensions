@@ -9,18 +9,20 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+/**
+ * This constrait describes the case when the provided {@link Long} value must be the provided {@link Long} value.
+ */
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @Constraint(validatedBy = LongValueMustBeValidator.class)
 @Documented
 public @interface LongValueMustBe {
     long mustBe() default 0L;
-    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation" +
-        ".LongValueMustBe" +
-        ".message=The provided Long value must be equal to the defined one.}";
-    
+
+    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation.LongValueMustBe}";
+
     Class<?>[] groups() default {};
-    
+
     Class<? extends Payload>[] payload() default {};
-    
+
 }

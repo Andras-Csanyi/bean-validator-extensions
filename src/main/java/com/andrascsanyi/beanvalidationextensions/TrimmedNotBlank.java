@@ -10,7 +10,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Validates if the provided {@link String} value is empty after it is trimmed.
+ * This constraint describes the case that the provided {@link String} value cannot be empty after it is trimmed.
  * <p>
  * The validator judges null to be invalid value.
  */
@@ -19,12 +19,10 @@ import java.lang.annotation.Target;
 @Constraint(validatedBy = TrimmedNotBlankValidator.class)
 @Documented
 public @interface TrimmedNotBlank {
-    
-    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation" +
-        ".TrimmedNotBlank" +
-        ".message=When the provided string is trimmed it must not be blank.}";
-    
+
+    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation.TrimmedNotBlank}";
+
     Class<?>[] groups() default {};
-    
+
     Class<? extends Payload>[] payload() default {};
 }
